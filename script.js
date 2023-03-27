@@ -29,7 +29,7 @@ addTask.addEventListener("click", (event) => {
   inputTask.value = "";
 
   checkButton.addEventListener("click", (event) => {
-    li.style.textDecoration = "line-through";
+    checkButton.parentElement.style.textDecoration = "line-through";
   });
 
   deleteButton.addEventListener("click", (event) => {
